@@ -28,16 +28,14 @@ Dropping TCP packets on a specific port using eBPF.
     
     `sudo $(which go) run main.go -port 4040`
 
-    ```
-    Note: Replace the port on which you want to drop the packets, the default is 4040.
-    ```
+    > **Note:** Replace the port on which you want to drop the packets. The default is `4040`.
+
 
 ## Verify the eBPF program
 Create 2 new terminal sessions - 1 and 2.
 
-```
-Note: The go program is configured to drop packets on the loopback (lo) interface, hence the packets will be dropped only if the server is running on the same machine (localhost).
-```
+
+> **Note:** The go program is configured to drop packets on the `loopback` (lo) interface, hence the packets will be dropped only if the server is running on the same machine (`localhost`).
 
 1. Start a python (or any other) http server on port `4040` on terminal 1:
 
