@@ -52,6 +52,5 @@ Note: The go program is configured to drop packets on the loopback (lo) interfac
 
 ## Demo: Dropping TCP Packets
 
-![Demo Drop TCP Packets](https://github.com/navin772/go-ebpf-accuknox/raw/main/demo_drop_TCP_packets.mp4)
+https://github.com/navin772/go-ebpf-accuknox/assets/98466550/03707554-0f5b-4003-8a5b-a22f8aca2d78
 
-[Click here to view the video](https://github.com/navin772/go-ebpf-accuknox/raw/main/demo_drop_TCP_packets.mp4)
