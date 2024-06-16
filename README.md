@@ -1,4 +1,4 @@
-# Drop TCP packets on a specific port
+# Task 1 - Drop TCP packets on a specific port
 
 Dropping TCP packets on a specific port using eBPF.
 
@@ -52,3 +52,7 @@ Create 2 new terminal sessions - 1 and 2.
 
 https://github.com/navin772/go-ebpf-accuknox/assets/98466550/03707554-0f5b-4003-8a5b-a22f8aca2d78
 
+
+# Task 3 - Explain Go concurrency code
+
+https://github.com/navin772/go-ebpf-accuknox/tree/main/go_concurrency
